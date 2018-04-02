@@ -4,12 +4,6 @@
  * Module dependencies.
  */
 
-import commander from 'commander';
+import run from '..';
 
-commander
-  .description(' Compares two configuration files and shows a difference.')
-  .option('-V, --version', 'output the version number')
-  .option('-f, --format [type]', 'Output format')
-  .parse(process.argv);
-
-if (!commander.args.length) commander.help();
+run().parse(process.argv);
