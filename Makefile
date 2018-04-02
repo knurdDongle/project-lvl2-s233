@@ -1,5 +1,5 @@
 run:
-	npm run babel-node -- 'src/bin/hexlet.js' 10
+	npm run babel-node -- src/bin/gendiff.js
 
 install-deps:
 	npm install
