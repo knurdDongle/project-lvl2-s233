@@ -1,7 +1,6 @@
 # project-lvl2-s233
 
-[![Code Climate](https://codeclimate.com/github/romanoffivan/javascript-package/badges/gpa.svg)](https://codeclimate.com/github/romanoffivan/javascript-package)
-[![Issue Count](https://codeclimate.com/github/romanoffivan/javascript-package/badges/issue_count.svg)](https://codeclimate.com/github/romanoffivan/javascript-package)
+[![Maintainability](https://api.codeclimate.com/v1/badges/63a919bf7c5d58519890/maintainability)](https://codeclimate.com/github/romanoffivan/project-lvl2-s233/maintainability)
 [![Build Status](https://travis-ci.org/romanoffivan/project-lvl2-s233.svg?branch=master)](https://travis-ci.org/romanoffivan/project-lvl2-s233)
 
 ## Setup
