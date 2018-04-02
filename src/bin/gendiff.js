@@ -6,4 +6,4 @@
 
 import run from '..';
 
-run().parse(process.argv);
+run();
