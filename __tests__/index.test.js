@@ -12,13 +12,11 @@ describe('difference', () => {
   it('json', () => {
     const path1 = '__tests__/__fixtures__/before.json';
     const path2 = '__tests__/__fixtures__/after.json';
-    const result = genDiff(path1, path2);
-    expect(result).toBe(expected);
+    expect(genDiff(path1, path2)).toBe(expected);
   });
   it('yaml', () => {
-    const path1 = '__tests__/__fixtures__/before.yml';
-    const path2 = '__tests__/__fixtures__/after.yml';
-    const result = genDiff(path1, path2);
-    expect(result).toBe(expected);
+    const path1 = '__tests__/__fixtures__/before.yaml';
+    const path2 = '__tests__/__fixtures__/after.yaml';
+    expect(genDiff(path1, path2)).toBe(expected);
   });
 });

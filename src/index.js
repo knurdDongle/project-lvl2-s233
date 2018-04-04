@@ -1,9 +1,12 @@
 import fs from 'fs';
+import path from 'path';
 import _ from 'lodash';
+import getParse from './parse';
 
 export default (file1, file2) => {
-  const obj1 = JSON.parse(fs.readFileSync(file1, 'utf-8'));
-  const obj2 = JSON.parse(fs.readFileSync(file2, 'utf-8'));
+  const parseFile = getParse(path.extname(file1));
+  const obj1 = parseFile(fs.readFileSync(file1, 'utf-8'));
+  const obj2 = parseFile(fs.readFileSync(file2, 'utf-8'));
 
   const keys = _.union(Object.keys(obj1), Object.keys(obj2));
   const buildStr = keys.map((key) => {
