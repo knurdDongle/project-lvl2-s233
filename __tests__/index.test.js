@@ -19,4 +19,9 @@ describe('difference', () => {
     const path2 = '__tests__/__fixtures__/after.yaml';
     expect(genDiff(path1, path2)).toBe(expected);
   });
+  it('ini', () => {
+    const path1 = '__tests__/__fixtures__/before.ini';
+    const path2 = '__tests__/__fixtures__/after.ini';
+    expect(genDiff(path1, path2)).toBe(expected);
+  });
 });
