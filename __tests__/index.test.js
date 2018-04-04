@@ -1,4 +1,4 @@
-import { genDiff } from '../src/';
+import genDiff from '../src/';
 
 const path1 = '__tests__/__fixtures__/before.json';
 const path2 = '__tests__/__fixtures__/after.json';
