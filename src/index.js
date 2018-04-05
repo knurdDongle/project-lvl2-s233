@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import _ from 'lodash';
-import getParse from './parse';
+import getParse from './parsers';
 
 export default (file1, file2) => {
   const parseFile = getParse(path.extname(file1));
