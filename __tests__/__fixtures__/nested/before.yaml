@@ -12,5 +12,3 @@ group1:
     key: value
 group2:
   abc: '12345'
-groupEqual:
-  prop1: '1'
