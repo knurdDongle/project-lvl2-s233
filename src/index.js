@@ -2,8 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import _ from 'lodash';
 import getParse from './parsers';
-import renderToTree from './tree';
-import getPlainRendere from './plain';
+import renderToTree from './renderer/toTree';
+import getPlainRendere from './renderer/toPlain';
 
 const rendererFormats = {
   plain: getPlainRendere,
