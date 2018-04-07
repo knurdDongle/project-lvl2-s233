@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import _ from 'lodash';
 import getParse from './parsers';
-import render from './renderer/index.renderer';
+import render from './renderers/index.renderer';
 
 const propertyTypes = [
   {
