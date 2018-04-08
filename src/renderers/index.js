@@ -1,6 +1,6 @@
-import renderToTree from '../renderers/toTree';
-import getPlainRender from '../renderers/toPlain';
-import renderToJson from '../renderers/toJson';
+import renderToTree from './toTree';
+import getPlainRender from './toPlain';
+import renderToJson from './toJson';
 
 const rendererFormats = {
   plain: getPlainRender,
